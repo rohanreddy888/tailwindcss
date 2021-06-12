@@ -1,4 +1,5 @@
-# tailwindcss
+# TailwindCSS 
+
 ## Run following commands
 
 ### Build TailwindCSS files
