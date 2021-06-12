@@ -4,5 +4,5 @@
 ### Build TailwindCSS files
 `npm run build-css`
 
-#Run Live Server
+### Run Live Server
 `live-server public`
