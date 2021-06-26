@@ -1,15 +1,16 @@
 {
-  "name": "materialcss",
+  "name": "tailwindcss-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "tailwindcss-boilerplate",
   "main": "index.js",
   "scripts": {
-    "build-css": "tailwindcss build src/style.css -o public/style.css"
+    "build": "tailwindcss build -i src/style.css -o public/style.css --jit --purge './public/*.html' -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^2.1.4"
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^2.2.0"
   }
 }
